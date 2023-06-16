@@ -6,17 +6,24 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        macro_layer {
             bindings = <
-&kp A  &kp B  &mo 1
-&kp C  &kp D  &kp E
+&kp A  &kp B  &kp C
+&kp D  &kp E  &mo 1
             >;
         };
 
         bt_layer {
             bindings = <
- &bootloader         &none       &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+       &mo 2    &bt BT_CLR        &trans
+            >;
+        };
+
+        system_layer {
+            bindings = <
+&sys_reset  &bootloader  &sys_reset
+    &trans  &bootloader      &trans
             >;
         };
     };
