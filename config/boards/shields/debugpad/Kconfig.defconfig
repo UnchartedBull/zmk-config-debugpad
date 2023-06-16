@@ -1,7 +1,7 @@
 if SHIELD_DEBUGTEST
 
 config ZMK_KEYBOARD_NAME
-  default "Debug-Pad"
+    default "DebugPad"
 
 config BT_MAX_CONN
   default 3
