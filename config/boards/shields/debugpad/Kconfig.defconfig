@@ -3,12 +3,6 @@ if SHIELD_DEBUGTEST
 config ZMK_KEYBOARD_NAME
     default "DebugPad"
 
-config BT_MAX_CONN
-  default 3
-
-config BT_MAX_PAIRED
-  default 3
-
 config BT_CTLR
   default BT
 
