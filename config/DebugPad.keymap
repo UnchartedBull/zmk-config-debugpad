@@ -3,13 +3,22 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        RESUME: RESUME {
+            compatible = "zmk,behavior-macro";
+            label = "RESUME";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_ALT &kp R>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         macro_layer {
             bindings = <
-&kp A  &kp B  &kp C
-&kp D  &kp E  &mo 1
+&kp LS(F8)  &RESUME    &kp LA(F8)
+    &kp F7   &kp F8  &lt 1 LS(F8)
             >;
         };
 
