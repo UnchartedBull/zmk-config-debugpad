@@ -1,6 +1,4 @@
 {
-  "id": "DebugPad",
-  "name": "DebugPad",
   "layouts": {
     "LAYOUT": {
       "layout": [
@@ -13,6 +11,5 @@
         { "label": "BR", "row": 1, "col": 2, "x": 2, "y": 1 }
       ]
     }
-  },
-  "sensors": []
+  }
 }

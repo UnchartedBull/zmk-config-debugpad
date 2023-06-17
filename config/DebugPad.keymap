@@ -17,8 +17,8 @@
 
         macro_layer {
             bindings = <
-&kp F13  &kp F14    &kp F15
-&kp F16  &kp F17  &lt 1 F18
+&kp LS(F8)  &RESUME    &kp LA(F8)
+    &kp F7   &kp F8  &lt 1 LS(F8)
             >;
         };
 
