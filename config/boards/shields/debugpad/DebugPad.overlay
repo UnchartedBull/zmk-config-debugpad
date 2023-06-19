@@ -27,23 +27,23 @@
 	};
 };
 
-&adc {
-	status = "okay";
-};
+// &adc {
+// 	status = "okay";
+// };
 
-&gpio0 {
-	status = "okay";
-};
+// &gpio0 {
+// 	status = "okay";
+// };
 
-&gpio1 {
-	status = "okay";
-};
+// &gpio1 {
+// 	status = "okay";
+// };
 
-&usbd {
-  status = "okay";
+// &usbd {
+//   status = "okay";
 
-	cdc_acm_uart: cdc_acm_uart {
-		compatible = "zephyr,cdc-acm-uart";
-		label = "CDC_ACM_0";
-	};
-};
+// 	cdc_acm_uart: cdc_acm_uart {
+// 		compatible = "zephyr,cdc-acm-uart";
+// 		label = "CDC_ACM_0";
+// 	};
+// };
