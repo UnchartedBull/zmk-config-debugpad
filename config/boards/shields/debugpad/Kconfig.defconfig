@@ -4,7 +4,7 @@ config ZMK_KEYBOARD_NAME
     default "DebugPad"
 
 config BOARD_ENABLE_DCDC
-  default y
+  default n
 
 config BT_CTLR
   default BT
