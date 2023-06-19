@@ -26,3 +26,16 @@
 		full-ohms = <(1000000 + 510000)>;
 	};
 };
+
+&adc {
+	status = "okay";
+};
+
+&gpio0 {
+	status = "okay";
+};
+
+&gpio1 {
+	status = "okay";
+};
+
